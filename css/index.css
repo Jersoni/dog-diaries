@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3eee5;
+    background-image: url(../images/pets_bg.png);
+    background-size: 140px;
+    background-blend-mode: overlay;
+}
+
+header {
+    background-color: #ffeb3b;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 8px;
+    text-align: justify;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 20px 0;
+    height: 60px;
+    gap: 34px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-section {
+    background-color: #e0f7fa;
+    background-image: url(../images/dog1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.hero-section div {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.hero-section h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #d8d8d8;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#blog {
+    margin-top: 40px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-posts .post {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    background: #fefaf1;
+    padding: 10px;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 1px rgb(216, 216, 216);
+}
+
+.blog-posts .post:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+
+.blog-posts .post h4 {
+    margin-top: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.image-container {
+    max-height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.image-container img {
+    height: 250px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 14px;
+}
